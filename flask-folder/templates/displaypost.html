@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Post with Tags</title>
+  </head>
+  <body>
+    Tags:<br\>
+    <ul>
+      {% for tag in tags %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+    <p>{{text}}</p>
+  </body>
+</html>
